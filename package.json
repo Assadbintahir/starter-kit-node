@@ -16,24 +16,24 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "compression": "^1.7.4",
-    "cookie-parser": "^1.4.4",
-    "debug": "^4.1.1",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.2",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "express-session": "^1.15.6",
-    "helmet": "^3.21.2",
-    "lodash": "^4.17.15",
+    "express-session": "^1.17.2",
+    "helmet": "^3.23.3",
+    "lodash": "^4.17.21",
     "method-override": "^3.0.0",
-    "mongoose": "^5.8.4",
-    "morgan": "^1.9.1",
+    "mongoose": "^5.13.5",
+    "morgan": "^1.10.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^5.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.7",
-    "@babel/node": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
     "babel-eslint": "^9.0.0",
     "cross-env": "^5.2.0",
     "eslint": "^5.16.0",
@@ -41,10 +41,10 @@
     "eslint-config-prettier": "^4.3.0",
     "eslint-config-wesbos": "0.0.19",
     "eslint-plugin-html": "^5.0.5",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^1.7.0",
     "nodemon": "^1.18.10",
     "pre-commit": "^1.2.2",
@@ -56,5 +56,8 @@
       "documentation/*"
     ],
     "delay": "1000"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env"]
   }
 }

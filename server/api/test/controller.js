@@ -1,4 +1,4 @@
-import { test } from '../../../lib';
+import {  test } from '../../../lib';
 
 export const helloWorld = async (req, res, next) => {
   try {

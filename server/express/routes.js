@@ -1,5 +1,5 @@
 import path from 'path';
-import { testRoutes } from '../api/test/routes';
+import { testRoutes } from '../api/routes';
 
 export const setupRoutes = (app, router) => {
   testRoutes(router);

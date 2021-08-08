@@ -20,7 +20,7 @@ const TAG = '/server/express/app.js';
 
 export const startApp = () => {
   const app = express();
-  mongoose.connect(global.config.mongo.uri, global.config.mongo.options);
+  // mongoose.connect(global.config.mongo.uri, global.config.mongo.options);
   global.db = db;
 
   app.use(compression());
