@@ -1,10 +1,11 @@
-# campster instructions
+# Basic Express-TS starter kit
 
- - First run the server by navigating to the root of project and running `npm run start`
- - Now we can proceed to test the API via postman.
-
- ## client
-
- - In order to run client, navigate to client directory from terminal.
- - If you want to build the app, run `npm run build`
- - If you want to run the app in local server mode, run `npm run start`
+This starter kit includes:
+- [x] Express with Typescript
+- [x] Simple layered API structure
+- [x] Unit test setup
+- [ ] Query builder and ORM (should be done according to project needs)
+- [x] Logging setup
+- [ ] Containerization (should be done according to project & devops needs)
+- [x] Environment variables management.
+- [x] Eslint + Prettier
